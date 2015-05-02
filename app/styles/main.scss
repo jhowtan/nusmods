@@ -950,28 +950,6 @@ colgroup.hover {
   }
 }
 
-.nm-module-project {
-  .nm-module-projects-list-item {
-    margin-bottom: 20px;
-    a {
-      color: #000;
-    }
-  }
-  .nm-module-project-list-title {
-    font-weight: bold;
-    margin-bottom: 5px;
-    margin-top: 0;
-  }
-  .nm-module-project-list-team {
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 100%;
-  }
-}
-
-
 // Friends
 .nm-friends-list {
   padding: 0;
@@ -1217,4 +1195,6 @@ colgroup.hover {
 @import "sidebar";
 @import "apps";
 @import "barenus";
+@import "project";
 @import "contribute";
+
